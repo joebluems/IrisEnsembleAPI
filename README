@@ -1,0 +1,13 @@
+./models - contains pre-built models
+./data - contains iris data, is not needed for API
+
+MODEL #1:
+> gunicorn --bind 0.0.0.0:5000 server:app
+
+MODEL #2:
+> gunicorn --bind 0.0.0.0:5001 server2:app
+
+MODEL #3:
+> Rscript jugServer.R
+
+Note: zeppelin notebooks used to build original models included
